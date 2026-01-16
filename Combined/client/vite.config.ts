@@ -8,7 +8,7 @@ export default defineConfig({
   // Base path for GitHub Pages
   // If your repo is named 'username.github.io', use base: '/'
   // If your repo has a different name (e.g., 'my-app'), use base: '/my-app/'
-  base: '/',
+  base: '/skillswap/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
