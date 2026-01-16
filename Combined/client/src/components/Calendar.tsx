@@ -514,7 +514,6 @@ export default function Calendar({ events = [], onEventClick, onFileUpload }: Ca
                             startContent={<IconUpload size={18} />}
                             size="sm"
                             as="span"
-                            isPressable
                         >
                             Upload Schedule
                         </Button>

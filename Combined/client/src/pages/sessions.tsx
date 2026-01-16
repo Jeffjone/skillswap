@@ -71,8 +71,8 @@ export default function SessionsPage() {
             } else if (activeTab === "schedules") {
                 try {
                     const result = await getUserSessionSchedules();
-                    if (!result.error) {
-                        setSchedules(result.data || []);
+                    if (!result.error && result.data && Array.isArray(result.data)) {
+                        setSchedules(result.data);
                     } else {
                         // Use demo data if there's an error
                         console.warn("Failed to load schedules from Firestore, using demo data:", result.msg);

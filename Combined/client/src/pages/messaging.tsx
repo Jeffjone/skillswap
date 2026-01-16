@@ -766,8 +766,7 @@ export default function MessagingPage() {
                                             isIconOnly
                                             variant="light"
                                             size="sm"
-                                            onPress={(e) => {
-                                                e.stopPropagation();
+                                            onPress={() => {
                                                 setShowUserDetailsModal(true);
                                             }}
                                         >

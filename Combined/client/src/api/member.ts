@@ -10,6 +10,8 @@ export default async function User() {
         displayName: "",
         teams: [],
         photoURL: "",
+        skillsOffered: [],
+        skillsSought: [],
         immutable: {
             memberType: MemberType.TeamMember,
         },

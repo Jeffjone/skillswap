@@ -31,12 +31,12 @@ const DEMO_USERS: UserProfile[] = [
         bio: "Computer Science student at State University. Love web development and want to help others learn programming!",
         location: "San Francisco, CA",
         skillsOffered: [
-            { id: "1", name: "JavaScript", category: "Technology", proficiency: "Intermediate", description: "Learned React and Node.js in my courses" },
-            { id: "2", name: "Python", category: "Technology", proficiency: "Intermediate", description: "Good with data science libraries" }
+            { id: "1", name: "JavaScript", category: "Technology", proficiency: "intermediate", description: "Learned React and Node.js in my courses" },
+            { id: "2", name: "Python", category: "Technology", proficiency: "intermediate", description: "Good with data science libraries" }
         ],
         skillsSought: [
-            { id: "3", name: "Guitar", category: "Music", proficiency: "Beginner", description: "Just starting to learn acoustic guitar" },
-            { id: "4", name: "Spanish", category: "Language", proficiency: "Beginner", description: "Want to practice conversational Spanish" }
+            { id: "3", name: "Guitar", category: "Music", proficiency: "beginner", description: "Just starting to learn acoustic guitar" },
+            { id: "4", name: "Spanish", category: "Language", proficiency: "beginner", description: "Want to practice conversational Spanish" }
         ]
     },
     {
@@ -46,12 +46,12 @@ const DEMO_USERS: UserProfile[] = [
         bio: "Design student working on my portfolio. Excited to share what I've learned and learn from others!",
         location: "New York, NY",
         skillsOffered: [
-            { id: "5", name: "UI/UX Design", category: "Design", proficiency: "Intermediate", description: "Taking design courses, know Figma well" },
-            { id: "6", name: "Photoshop", category: "Design", proficiency: "Intermediate", description: "Been learning photo editing in my free time" }
+            { id: "5", name: "UI/UX Design", category: "Design", proficiency: "intermediate", description: "Taking design courses, know Figma well" },
+            { id: "6", name: "Photoshop", category: "Design", proficiency: "intermediate", description: "Been learning photo editing in my free time" }
         ],
         skillsSought: [
-            { id: "7", name: "Coding", category: "Technology", proficiency: "Beginner", description: "Want to learn web development basics" },
-            { id: "8", name: "French", category: "Language", proficiency: "Beginner", description: "Starting French classes next semester" }
+            { id: "7", name: "Coding", category: "Technology", proficiency: "beginner", description: "Want to learn web development basics" },
+            { id: "8", name: "French", category: "Language", proficiency: "beginner", description: "Starting French classes next semester" }
         ]
     },
     {
@@ -61,12 +61,12 @@ const DEMO_USERS: UserProfile[] = [
         bio: "Music major in my second year. Played guitar since high school and love sharing music with others.",
         location: "Los Angeles, CA",
         skillsOffered: [
-            { id: "9", name: "Guitar", category: "Music", proficiency: "Advanced", description: "Can play acoustic and electric, learning jazz" },
-            { id: "10", name: "Music Production", category: "Music", proficiency: "Intermediate", description: "Learning Ableton in my music tech classes" }
+            { id: "9", name: "Guitar", category: "Music", proficiency: "advanced", description: "Can play acoustic and electric, learning jazz" },
+            { id: "10", name: "Music Production", category: "Music", proficiency: "intermediate", description: "Learning Ableton in my music tech classes" }
         ],
         skillsSought: [
-            { id: "11", name: "Video Editing", category: "Design", proficiency: "Beginner", description: "Need help with Premiere Pro for video projects" },
-            { id: "12", name: "Korean", category: "Language", proficiency: "Beginner", description: "Want to learn Korean to talk with family" }
+            { id: "11", name: "Video Editing", category: "Design", proficiency: "beginner", description: "Need help with Premiere Pro for video projects" },
+            { id: "12", name: "Korean", category: "Language", proficiency: "beginner", description: "Want to learn Korean to talk with family" }
         ]
     },
     {
@@ -76,13 +76,13 @@ const DEMO_USERS: UserProfile[] = [
         bio: "International student studying languages. Native Spanish speaker happy to help others learn!",
         location: "Miami, FL",
         skillsOffered: [
-            { id: "13", name: "Spanish", category: "Language", proficiency: "Advanced", description: "Native speaker, can help with conversation" },
-            { id: "14", name: "French", category: "Language", proficiency: "Intermediate", description: "Taking French courses, conversational level" },
-            { id: "15", name: "Portuguese", category: "Language", proficiency: "Intermediate", description: "Learning Portuguese, intermediate level" }
+            { id: "13", name: "Spanish", category: "Language", proficiency: "advanced", description: "Native speaker, can help with conversation" },
+            { id: "14", name: "French", category: "Language", proficiency: "intermediate", description: "Taking French courses, conversational level" },
+            { id: "15", name: "Portuguese", category: "Language", proficiency: "intermediate", description: "Learning Portuguese, intermediate level" }
         ],
         skillsSought: [
-            { id: "16", name: "Web Design", category: "Design", proficiency: "Beginner", description: "Want to learn HTML/CSS for personal projects" },
-            { id: "17", name: "Piano", category: "Music", proficiency: "Beginner", description: "Always wanted to learn piano basics" }
+            { id: "16", name: "Web Design", category: "Design", proficiency: "beginner", description: "Want to learn HTML/CSS for personal projects" },
+            { id: "17", name: "Piano", category: "Music", proficiency: "beginner", description: "Always wanted to learn piano basics" }
         ]
     },
     {
@@ -92,12 +92,12 @@ const DEMO_USERS: UserProfile[] = [
         bio: "CS sophomore who loves building web apps. Part of the coding club and always excited to share knowledge!",
         location: "Seattle, WA",
         skillsOffered: [
-            { id: "18", name: "React", category: "Technology", proficiency: "Intermediate", description: "Built a few projects with React and Next.js" },
-            { id: "19", name: "Node.js", category: "Technology", proficiency: "Intermediate", description: "Learned Express and MongoDB in my backend class" }
+            { id: "18", name: "React", category: "Technology", proficiency: "intermediate", description: "Built a few projects with React and Next.js" },
+            { id: "19", name: "Node.js", category: "Technology", proficiency: "intermediate", description: "Learned Express and MongoDB in my backend class" }
         ],
         skillsSought: [
-            { id: "20", name: "Guitar", category: "Music", proficiency: "Beginner", description: "Want to learn acoustic guitar as a hobby" },
-            { id: "21", name: "Cooking", category: "Cooking", proficiency: "Beginner", description: "Learning to cook Korean food for meal prep" }
+            { id: "20", name: "Guitar", category: "Music", proficiency: "beginner", description: "Want to learn acoustic guitar as a hobby" },
+            { id: "21", name: "Cooking", category: "Cooking", proficiency: "beginner", description: "Learning to cook Korean food for meal prep" }
         ]
     }
 ];

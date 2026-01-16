@@ -272,7 +272,7 @@ export const Navbar = (props: NavbarProps) => {
                                             startContent={item.startContent}
                                             onPress={item.onPress}
                                             className={item.className}
-                                            color={item.color}
+                                            color={item.color as "default" | "primary" | "secondary" | "success" | "warning" | "danger" | undefined}
                                         >
                                             {item.content}
                                         </DropdownItem>
@@ -375,7 +375,7 @@ export const Navbar = (props: NavbarProps) => {
                                             startContent={item.startContent}
                                             onPress={item.onPress}
                                             className={item.className}
-                                            color={item.color}
+                                            color={item.color as "default" | "primary" | "secondary" | "success" | "warning" | "danger" | undefined}
                                         >
                                             {item.content}
                                         </DropdownItem>

@@ -112,7 +112,7 @@ export const SignUpComponent = () => {
     const handleGoogleSubmit = async () => {
         try {
             setSubmitting(true);
-            const result = await SignUpWithGoogle(staySignedIn, memberType);
+            const result = await SignUpWithGoogle(staySignedIn, memberType) as { error?: boolean; msg?: string };
             if (result.error) {
                 toast.error(result.msg, {
                     position: "bottom-right",

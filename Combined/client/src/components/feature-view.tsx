@@ -5,7 +5,7 @@ import { MemberType } from "@/types/membertypes";
 import { Input } from "@nextui-org/input";
 import { Textarea } from "@nextui-org/react";
 import { ReactNode, useState } from "react";
-import { toast } from "sonner";
+import { toast } from "react-toastify";
 
 interface FeatureViewProps {
     featureTitle: string;

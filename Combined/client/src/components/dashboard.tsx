@@ -108,11 +108,13 @@ export default function Dashboard() {
 
             // Load upcoming sessions
             const schedulesResult = await getUserSessionSchedules();
-            if (!schedulesResult.error && schedulesResult.data) {
+            if (!schedulesResult.error && schedulesResult.data && Array.isArray(schedulesResult.data)) {
                 const upcoming = schedulesResult.data
                     .filter((s: any) => s.status === SessionStatus.ACCEPTED)
                     .slice(0, 5);
                 setUpcomingSessions(upcoming);
+            } else {
+                setUpcomingSessions([]);
             }
         } catch (error) {
             console.error("Error loading dashboard:", error);
