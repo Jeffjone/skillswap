@@ -1,6 +1,6 @@
 # Dependencies
 node_modules/
-package-lock.json
+# Keep package-lock.json files for reproducible builds (needed for npm ci)
 
 # Build outputs
 dist/
