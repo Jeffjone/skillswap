@@ -33,7 +33,7 @@ try {
     root.render(
         <React.StrictMode>
             <ErrorBoundary>
-                <BrowserRouter>
+                <BrowserRouter basename="/skillswap">
                     <Provider>
                         <App />
                     </Provider>
