@@ -362,7 +362,7 @@ export default function BrowsePage() {
                                 <SelectItem key={cat} value={cat}>
                                     {cat}
                                 </SelectItem>
-                            ))}
+                            )) as any}
                         </Select>
                         <Select
                             label="Skill"
@@ -383,7 +383,7 @@ export default function BrowsePage() {
                                 <SelectItem key={skill} value={skill}>
                                     {skill}
                                 </SelectItem>
-                            ))}
+                            )) as any}
                         </Select>
                     </div>
                 </div>
